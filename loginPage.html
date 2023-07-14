@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo/favicon.png" type="image/ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/loginPage.css">
+    <script src="https://kit.fontawesome.com/f65bf55a94.js" crossorigin="anonymous"></script>
+    <title> ورود و ثبت نام </title>
+</head>
+
+<body class="rtl">
+
+    <div class="main-box">
+        <div class="form-box">
+            <div class="btn-box">
+                <div id="moving-button"></div>
+                <button class="toggle-btn" onclick="Register()" type="button">
+                    ثبت نام
+                </button>
+                <button class="toggle-btn" onclick="Login()" type="button">
+                    ورود
+                </button>
+            </div>
+            <div class="social-buttons d-flex justify-content-around">
+                <a href="#" class="fa fa-facebook rounded-circle"></a>
+                <a href="#" class="fa fa-instagram rounded-circle"></a>
+                <a href="#" class="fa fa-youtube rounded-circle "></a>
+            </div>
+            <form action="#" id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="نام کاربری">
+                <input type="password" class="input-field" placeholder="رمز عبور">
+                <input type="checkbox" class="check-field"><span>مرا به خاطر بسپار</span>
+                <button type="submit" class="submit-field">ورود</button>
+            </form>
+
+            <form action="#" id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="نام کاربری">
+                <input type="email" class="input-field" placeholder="ایمیل">
+                <input type="password" class="input-field" placeholder="رمز عبور">
+                <input type="checkbox" class="check-field">
+                <span>
+                    قوانین و مقررات سایت را می پذیرم
+                </span>
+                <button type="submit" class="submit-field">ثبت نام</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.6.0.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>

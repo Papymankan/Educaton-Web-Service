@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "Yekan";
+    src: url(../fonts/Yekan.woff2);
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Yekan";
+}
+
+.main-box
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(../images/root/back3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box
+{
+    width: 380px;
+    height: 510px;
+    background-color: white;
+    position: relative;
+    margin: 7% auto;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.btn-box
+{
+    width: 220px;
+    margin: 30px auto;
+    position: relative;
+    border-radius: 30px;
+    font-size: 16px;
+    box-shadow: 0 0 1.25rem 0.5rem #ff61251f;
+}
+.toggle-btn
+{
+    position: relative;
+    padding: 0.5rem 1.8rem;
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.toggle-btn:focus
+{
+    outline: none;
+}
+#moving-button
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    border-radius: 30px;
+    background-image : linear-gradient(to right, #25aae4, #1ebba3);
+    transition: all 1s;
+}
+.social-buttons
+{
+    width: 220px;
+    margin: 40px auto;
+}
+.social-buttons a
+{
+    font-size: 1.3rem;
+    background-image : linear-gradient(to right, #25aae4, #1ebba3);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+.input-group
+{
+    position: absolute;
+    top: 170px;
+    width: 280px;
+    margin-right: auto;
+    left: 50px;
+}
+.input-field
+{
+    width: 100%;
+    margin: 0.3rem 0px;
+    padding: 0.6rem 10px; 
+    border: 0; 
+    border-bottom: 1px solid #ccc; 
+}
+.input-field:focus
+{
+    outline: none;
+}
+
+.check-field
+{
+    margin: 1.8rem 0.7rem;
+}
+.input-group span
+{
+    margin: 1.8rem 0rem;
+    color:rgb(116, 116, 116);
+    font-size: 15px;
+}
+.submit-field
+{
+    width: 85%;
+    margin: auto;
+    cursor: pointer;
+    padding: 0.6rem 1.8rem;
+    background-image : linear-gradient(to right, #25aae4, #1ebba3);
+    border-radius: 50px;
+    border: 0;
+}
+.submit-field:focus
+{
+    outline: none;
+}
+
+#login
+{
+    transition: all 1s;
+}
+
+#register
+{
+    left: 450px;
+    transition: all 1s;
+}
